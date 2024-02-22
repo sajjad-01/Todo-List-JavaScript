@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Center the form */
+.mains {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the input field */
+.todoValue {
+    width: calc(100% - 100px); /* Take up all space except for button */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid #4CAF50;
+}
+
+/* Style the add task button */
+.btn {
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the todo list container */
+.todoLists {
+    
+
+    cursor: pointer;
+    text-decoration: dotted;
+    
+
+}
+
+.todoLists li{
+    margin-right:20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 200px;
+    border: 2px solid #4CAF50;
+}
+
+
+
+/* Style the individual todo items */
+.todoItem {
+    
+
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
